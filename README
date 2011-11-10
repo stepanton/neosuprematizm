@@ -1,0 +1,11 @@
+//    _________________________________________________
+//	 |						 |
+//	 |  This code was created by Anton Stepanov '11  |
+//	 |						 |
+//	 |		   stepanton.ru			 |
+//	 |	      e-mail:stepanton@me.com		 |
+//	 |_______________________________________________|
+//
+параметры сборки
+g++ -Wall -o "%e" "%f" -I/usr/X11R6/include/ -L/usr/X11R6/lib -lX11   -lglut -lGL -lGLU
+
